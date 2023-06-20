@@ -599,9 +599,6 @@ input,textarea:focus{
   border-bottom:1px solid rgba(128, 128, 128, 0.33);
   padding-bottom: 2em;
 }
-.left{
-
-}
 .left > img{
   max-width: 100%;
   border-radius: 1em;
