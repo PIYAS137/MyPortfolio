@@ -1,4 +1,3 @@
-import React from 'react'
 import PicOfHome from '../temp/PicOfHome'
 
 const Home = () => {

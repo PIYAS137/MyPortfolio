@@ -1,4 +1,3 @@
-import React from 'react'
 import Skills from '../Skills'
 import Education from '../Education'
 import HandBurger from '../temp/HandBurger'

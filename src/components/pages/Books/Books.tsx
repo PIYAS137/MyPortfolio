@@ -1,11 +1,10 @@
-import React,{MouseEvent, useEffect, useState} from 'react'
-import { FaSearchengin } from "react-icons/fa";
+import {useState} from 'react'
 import { BooksArray } from './BooksArray'
 import Book from './Book'
 import HandBurger from '../../temp/HandBurger';
 
 const Books = () => {
-  const [books,setBooks]=useState(BooksArray);
+  const [books]=useState(BooksArray);
   const [val,setVal]=useState("");
   
 

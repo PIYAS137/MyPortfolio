@@ -1,4 +1,3 @@
-import React from 'react'
 import { EduArray } from './temp/EduArray'
 
 const Education = () => {

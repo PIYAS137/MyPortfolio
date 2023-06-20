@@ -1,4 +1,3 @@
-import React,{useState} from 'react';
 import { ProjectArray } from '../temp/ProjectArray';
 import { Link } from 'react-router-dom';
 import HandBurger from '../temp/HandBurger';

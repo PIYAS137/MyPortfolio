@@ -1,5 +1,4 @@
-import React from 'react'
-import { FaTelegramPlane,FaAngleDoubleDown } from "react-icons/fa";
+import { FaTelegramPlane} from "react-icons/fa";
 import { useLocation } from 'react-router'
 import HandBurger from '../temp/HandBurger';
 

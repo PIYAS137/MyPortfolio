@@ -1,5 +1,3 @@
-import React from 'react'
-import ContactMaps from '../temp/ContactMaps'
 import ContactField from '../temp/ContactField'
 import HandBurger from '../temp/HandBurger'
 
