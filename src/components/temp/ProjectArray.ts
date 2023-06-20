@@ -1,6 +1,5 @@
 import RMCC from './ProjectsImage/RMCC1.00.png'
 import RMCCDET from './ProjectsImage/RMCCDet.png'
-import One from './ProjectsImage/one.png'
 
 export const ProjectArray=[
     {

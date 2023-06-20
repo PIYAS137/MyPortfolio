@@ -1,5 +1,4 @@
-import {useState} from 'react'
-import {FaBars,FaCompressArrowsAlt } from "react-icons/fa";
+import {FaBars} from "react-icons/fa";
 const HandBurger = () => {
     
     const handleClick=()=>{

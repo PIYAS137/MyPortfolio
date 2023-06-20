@@ -8,7 +8,7 @@ const ContactField = () => {
       e.preventDefault();
   
       emailjs.sendForm('default1', 'template_wpuri8h', e.currentTarget, 'R-PIU8JgrSoL-sOGO')
-        .then((result) => {
+        .then(() => {
             alert("Piyas Receive Your Response. Let check your email...!")
         }, (error) => {
             console.log(error.text);
