@@ -15,7 +15,7 @@ const ContactField = () => {
                 icon: "success",
                 title: "Piyas Receive Your Response. Let check your email...!",
                 showConfirmButton: false,
-                timer: 1500
+                timer: 2000
               });
         }, (error) => {
             console.log(error.text);
