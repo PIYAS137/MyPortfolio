@@ -1,0 +1,69 @@
+[
+    {
+        "name":"Share A Bite",
+        "source":"https://github.com/PIYAS137/Share_A_Bite_Client_Side",
+        "title":"A Global Food Sharing Website",
+        "image":"https://i.ibb.co/yqbKct2/Full-Loaded-Cream-And-Jam-Donuts.jpg",
+        "livePreview":"https://share-a-bite-b0bdb.web.app/",
+        "buildTime":"November 2023",
+        "timeLine":"4 Days",
+        "language":["ReactJs","Tailwind","ExpressJs","MongoDB"],
+        "question":"Which is the best food sharing website in the world",
+        "ans":"Food52. Food52 is a popular food blog and online community focusing on home cooking, recipe sharing, and culinary inspiration. It is a platform where food enthusiasts can connect, exchange ideas, and discover new recipes and cooking techniques.",
+        "detImage":"https://i.ibb.co/9wKk4td/Jack-Daniels-Burgers-Host-The-Toast.jpg"
+    }
+    ,
+    {
+        "name":"BMB Brand Car",
+        "source":"https://github.com/PIYAS137/BMB_Car_Shop_Client_Side",
+        "title":"Online car ecommerce website",
+        "image":"https://i.ibb.co/5YWZMhf/wallpaperflare-com-wallpaper-28.jpg",
+        "livePreview":"https://bmb-brand-web.web.app/",
+        "buildTime":"November 2023",
+        "timeLine":"3 Days",
+        "language":["ReactJs","Tailwind","ExpressJs","MongoDB"],
+        "question":"What is auto ecommerce?",
+        "ans":"Automotive ecommerce, or automotive electronic commerce, refers to the buying and selling of automotive vehicles and parts over the Internet",
+        "detImage":"https://i.ibb.co/5YWZMhf/wallpaperflare-com-wallpaper-28.jpg"
+    },
+    {
+        "name":"BMarry",
+        "source":"https://github.com/PIYAS137/BMarry_Client_Side",
+        "title":"Matrimony website",
+        "image":"https://i.ibb.co/xMwcLZq/s-l1600.jpg",
+        "livePreview":"https://bmarry.web.app/",
+        "buildTime":"December 2023",
+        "timeLine":"4 Days",
+        "language":["ReactJs","Tailwind","ExpressJs","MongoDB"],
+        "question":"Which is the oldest matrimonial site in the world?",
+        "ans":"Started in 1996, Shaadi.com is the oldest matrimonial platform and is trusted by millions of users. However, being the oldest doesn't keep them from being innovative.",
+        "detImage":"https://i.ibb.co/VVWqXMn/Register-Login-2.jpg"
+    },    
+    {
+        "name":"RMCC 1.00",
+        "source":"https://github.com/PIYAS137/Resistance-Measurement-with-Color-Colde",
+        "title":"Resistance Measurement with color code",
+        "image":"https://i.ibb.co/mNpGdQG/Rectangle-2-4.png",
+        "livePreview":"https://rmcc1.netlify.app/",
+        "buildTime":"January2023",
+        "timeLine":"3 Hours",
+        "language":["HTML5","CSS3","JavaScript"],
+        "question":"What is the color coding theory of a resistor?",
+        "ans":"Components and wires are coded with colors to identify their value and function. Resistor Color Coding uses colored bands to quickly identify a resistors resistive value and its percentage of tolerance with the physical size of the resistor indicating its wattage rating.",
+        "detImage":"https://i.ibb.co/w4hWhdg/Rectangle-3-1.png"
+    },
+    {
+        "name":"ROCK-X",
+        "source":"https://github.com/PIYAS137/ROCK-X",
+        "title":"Concert Management Website",
+        "image":"https://i.ibb.co/qBbzPLj/568bf5ef29d0d610020dfe3043488839.jpg",
+        "livePreview":"https://rockx-b7e00.web.app/",
+        "buildTime":"October 2023",
+        "timeLine":"2 Hours",
+        "language":["React","Tailwind","JavaScript"],
+        "question":"What is Event Management?",
+        "ans":"In all areas of business, there are some terms you’re never truly sure you know the definition of. However, when it comes to event management, the definition is easy. At its core, event management is the process of planning an event. This is any type of event, whether it be in-person, virtual, or hybrid. It’s synonymous with event planning and meeting planning. Just like those other terms, the scope of each project and the nitty-gritty details vary depending on the industry, company size, and more.",
+        "detImage":"https://www.cvent.com/sites/default/files/styles/focus_scale_and_crop_800x450/public/migrated_attachments/america-analysis-business-926987.webp?itok=CDlXU8S5"
+    }
+    
+]

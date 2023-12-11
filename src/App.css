@@ -101,6 +101,10 @@ body{
   border:1px solid #28E98C;
   color:#28E98C;
 }
+.small{
+  font-size: .8rem;
+  color:#28e98c;
+}
 .cardBottom{
   display: flex;
   justify-content: center;
@@ -365,7 +369,7 @@ input,textarea:focus{
   border-radius: 5px;
 }
 .html::after{
-  content: 'HTML(95%)';
+  content: 'React (95%)';
   top:1px;
   right:.5em;
   position: absolute;
@@ -390,7 +394,7 @@ input,textarea:focus{
   border-radius: 5px;
 }
 .css::after{
-  content: 'CSS(92%)';
+  content: 'Tailwind (92%)';
   top:1px;
   right:.5em;
   position: absolute;
@@ -415,7 +419,7 @@ input,textarea:focus{
   border-radius: 5px;
 }
 .js::after{
-  content: 'JavaScript(82%)';
+  content: 'JavaScript (75%)';
   top:1px;
   right:.5em;
   position: absolute;
@@ -427,7 +431,7 @@ input,textarea:focus{
      width: 20%;
     }
  100%{
-     width: 82%;
+     width: 75%;
     }
  }
  .typescript{
@@ -440,7 +444,7 @@ input,textarea:focus{
   border-radius: 5px;
 }
 .typescript::after{
-  content: 'TypeScript(88%)';
+  content: 'ExpressJs (77%)';
   top:1px;
   right:.5em;
   position: absolute;
@@ -452,7 +456,7 @@ input,textarea:focus{
      width: 20%;
     }
  100%{
-     width: 88%;
+     width: 77%;
     }
  }
  .react{
@@ -465,7 +469,7 @@ input,textarea:focus{
   border-radius: 5px;
 }
 .react::after{
-  content: 'React(90%)';
+  content: 'Firebase (80%)';
   top:1px;
   right:.5em;
   position: absolute;
@@ -477,7 +481,7 @@ input,textarea:focus{
      width: 20%;
     }
  100%{
-     width: 90%;
+     width: 80%;
     }
  }
  .redux{
@@ -490,7 +494,7 @@ input,textarea:focus{
   border-radius: 5px;
 }
 .redux::after{
-  content: 'Redux(97%)';
+  content: 'MongoDB (70%)';
   top:1px;
   right:.5em;
   position: absolute;
@@ -502,7 +506,7 @@ input,textarea:focus{
      width: 20%;
     }
  100%{
-     width: 97%;
+     width: 70%;
     }
  }
  /* --------education-------- */
@@ -605,7 +609,7 @@ input,textarea:focus{
   object-fit: cover; 
 }
 .right{
-  padding:2em 0em 0em 2em;
+  padding:0em 0em 0em 2em;
 }
 .right > h1 {
   color:wheat;

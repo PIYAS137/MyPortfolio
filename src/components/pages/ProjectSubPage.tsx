@@ -26,13 +26,14 @@ const ProjectSubPage = () => {
                         )
                     })}
                 </ul>
+                <a style={{"marginBottom":"1rem"}} target="blank" href={item.source}>Source Code</a>
                 <a target='blank' href={item.livePreview}>Live View <FaTelegramPlane className="livego" style={{marginLeft:".5em"}}/></a>
             </div>
         </div>
         <div className="bottom">
                 <h2>{item.question}</h2>
                 <p style={{maxWidth:"80%"}}>{item.ans}</p>
-                <img style={{maxWidth:"100%",margin:"2em 0em"}} src={item.detImage} alt="" />
+                <img style={{maxWidth:"100%",margin:"2em 0em", borderRadius:'.5rem'}} src={item.detImage} alt="" />
         </div>
     </div>
     </>

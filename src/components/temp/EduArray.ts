@@ -6,7 +6,7 @@ export const EduArray=[
         degree:"Bachelor of Science",
         subject:"Computer Science and Engineering",
         institute:"Daffodil International University",
-        timeline:"2021 - Present",
+        timeline:"2022 - Present",
         loaction:"Ashulia, Savar, Dhaka, Bangladesh"
     },
     {
@@ -19,10 +19,10 @@ export const EduArray=[
     },
     {
         id:3,
-        degree:"Secondary School Certificate",
-        subject:"Science",
-        institute:"Shaheed Police Smrity School & College",
-        timeline:"2017 - 2019",
-        loaction:"Mirpur, Dhaka, Bangladesh"
+        degree:"Complete Web Development",
+        subject:"MERN Major",
+        institute:"Programming Hero",
+        timeline:"July 2023 - December 2023",
+        loaction:"Online"
     }
 ]

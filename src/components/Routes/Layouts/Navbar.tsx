@@ -15,14 +15,14 @@ const Navbar = () => {
     document.querySelector(".leftWrapper")?.setAttribute("data-theme","AfterClickProject")
     document.querySelector("nav")?.setAttribute("data-theme","AfterClickResume")
   }
-  const handleClickBook=()=>{
-    document.querySelector(".leftWrapper")?.setAttribute("data-theme","AfterClickBook")
-    document.querySelector("nav")?.setAttribute("data-theme","AfterClickResume")
-  }
-  const handleClickHelpCode=()=>{
-    document.querySelector(".leftWrapper")?.setAttribute("data-theme","AfterClickHelpCode")
-    document.querySelector("nav")?.setAttribute("data-theme","AfterClickResume")
-  }
+  // const handleClickBook=()=>{
+  //   document.querySelector(".leftWrapper")?.setAttribute("data-theme","AfterClickBook")
+  //   document.querySelector("nav")?.setAttribute("data-theme","AfterClickResume")
+  // }
+  // const handleClickHelpCode=()=>{
+  //   document.querySelector(".leftWrapper")?.setAttribute("data-theme","AfterClickHelpCode")
+  //   document.querySelector("nav")?.setAttribute("data-theme","AfterClickResume")
+  // }
   const handleClickHelpContact=()=>{
     document.querySelector(".leftWrapper")?.setAttribute("data-theme","AfterClickHelpContact")
     document.querySelector("nav")?.setAttribute("data-theme","AfterClickResume")
@@ -33,8 +33,8 @@ const Navbar = () => {
             <NavLink onClick={handleClickHome} className="navLink" to="/">Home</NavLink>
             <NavLink onClick={handleClickResume}  className="navLink" to="/skills">Resume</NavLink>
             <NavLink onClick={handleClickProject} className="navLink" to="/projects">Projects</NavLink>
-            <NavLink onClick={handleClickBook}  className="navLink" to="/books">Books</NavLink>
-            <NavLink onClick={handleClickHelpCode} className="navLink" to="/helpcode">HelpC0de</NavLink>
+            {/* <NavLink onClick={handleClickBook}  className="navLink" to="/books">Books</NavLink> */}
+            {/* <NavLink onClick={handleClickHelpCode} className="navLink" to="/helpcode">HelpC0de</NavLink> */}
             <NavLink onClick={handleClickHelpContact} className="navLink" to="/contact">Contact</NavLink>
         </div>
     </nav>

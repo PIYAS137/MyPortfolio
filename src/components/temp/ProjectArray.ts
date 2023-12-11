@@ -14,7 +14,5 @@ export const ProjectArray=[
         language:["HTML5","CSS3","JavaScript"],
         question:"What is the color coding theory of a resistor?",
         ans:"Components and wires are coded with colors to identify their value and function. Resistor Color Coding uses colored bands to quickly identify a resistors resistive value and its percentage of tolerance with the physical size of the resistor indicating its wattage rating.",
-    },
-    
-    
+    }
 ]

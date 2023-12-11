@@ -1,14 +1,31 @@
 import { ProjectArray } from '../temp/ProjectArray';
 import { Link } from 'react-router-dom';
 import HandBurger from '../temp/HandBurger';
+import { useEffect, useState } from 'react';
+import axios from 'axios';
 
 
 const Projects = () => {
+
+  const [datas,setDatas]=useState([])
+
+  useEffect(()=>{
+    axios.get('https://portfolio-backend-orpin-eight.vercel.app/projects')
+    .then(res=>{
+      console.log(res.data);
+      setDatas(res.data);
+    })
+  },[])
+
+
+
+
+
   return (
     <>
     <HandBurger/>
     <div className='projectsWrapper'>
-      {ProjectArray && ProjectArray.map((one)=>{
+      {datas && datas.map((one)=>{
         console.log(one)
         return(
           <div className='temporay' key={one.id}>

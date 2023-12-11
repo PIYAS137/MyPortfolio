@@ -3,7 +3,7 @@ import { EduArray } from './temp/EduArray'
 const Education = () => {
   return (
     <div className="education">
-        <p style={{fontSize:"2.5rem",margin:"1.5em 0em 2em 0em"}}>Education & <span style={{margin:"1em 0em 1em 0em",color:"#28E98C",fontSize:"2.5rem",display:"inline"}}>Experience</span></p>
+        <p style={{fontSize:"2.5rem",margin:"1.5em 0em 2em 0em"}}>Education, Course & <span style={{margin:"1em 0em 1em 0em",color:"#28E98C",fontSize:"2.5rem",display:"inline"}}>Experience</span></p>
         {EduArray.map((one)=>{
             console.log(one);
             return(
