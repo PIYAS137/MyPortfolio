@@ -1,5 +1,6 @@
 import { FormEvent,useRef } from 'react'
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 
 const ContactField = () => {
     const form = useRef<HTMLFormElement>(null); 
@@ -9,7 +10,13 @@ const ContactField = () => {
   
       emailjs.sendForm('default1', 'template_wpuri8h', e.currentTarget, 'R-PIU8JgrSoL-sOGO')
         .then(() => {
-            alert("Piyas Receive Your Response. Let check your email...!")
+            Swal.fire({
+                position: "top-end",
+                icon: "success",
+                title: "Piyas Receive Your Response. Let check your email...!",
+                showConfirmButton: false,
+                timer: 1500
+              });
         }, (error) => {
             console.log(error.text);
         });
