@@ -16,7 +16,7 @@ const Projects = () => {
   const [datas, setDatas] = useState<Project[]>([]); 
 
   useEffect(() => {
-    axios.get<Project[]>('https://portfolio-backend-orpin-eight.vercel.app/projects')
+    axios.get<Project[]>('https://portfolio-backend-ochre.vercel.app/projects')
       .then(res => {
         console.log(res.data);
         setDatas(res.data);
