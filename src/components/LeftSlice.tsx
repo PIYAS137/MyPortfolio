@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaGithub, FaPhone, FaBroom } from "react-icons/fa";
-import MyPic from '../assets/me.jpg'
+// import MyPic from '../assets/me.jpg'
 import HandBurger from './temp/HandBurger';
 
 const LeftSlice = () => {
@@ -40,7 +40,7 @@ const LeftSlice = () => {
                         <p>JavaScript Expart<br />& MERN Developer</p>
                     </div>
                     <div className="cardBody">
-                        <img className='cardImg' src={MyPic} alt="" />
+                        <img className='cardImg' src="https://i.ibb.co/BGS7DPv/IMG-20220219-WA0053.jpg" alt="" />
                         <h2><small className='small' style={{fontWeight:'100'}}>piyasmahmudealif@gmail.com</small><br />Based in Dhaka,<br /> Bangladesh</h2>
                         <p>&copy; 2023 Piyas. All Right Reserved</p>
                         <div className="contactIcons">
