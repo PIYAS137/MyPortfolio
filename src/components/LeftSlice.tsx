@@ -37,7 +37,7 @@ const LeftSlice = () => {
                     <HandBurger />
                     <div className="cardTitle">
                         <h1>Piyas</h1>
-                        <p>JavaScript Expart<br />& React Developer</p>
+                        <p>JavaScript Expart<br />& MERN Developer</p>
                     </div>
                     <div className="cardBody">
                         <img className='cardImg' src={MyPic} alt="" />
