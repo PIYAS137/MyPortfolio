@@ -1,6 +1,7 @@
 import Skills from '../Skills'
 import Education from '../Education'
 import HandBurger from '../temp/HandBurger'
+import Extra from '../Extra'
 
 const Resume = () => {
   return (
@@ -8,6 +9,7 @@ const Resume = () => {
       <HandBurger/>
       <Skills/>
       <Education/>
+      <Extra/>
     </div>
     
   )

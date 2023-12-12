@@ -8,10 +8,6 @@ const Contact = () => {
       <div className="topSideContact">
         <ContactField/>
       </div>
-      {/* <div className="bottomSideContact">
-      <h2>Find Me Here</h2>
-      <ContactMaps/>
-      </div> */}
     </>
   )
 }

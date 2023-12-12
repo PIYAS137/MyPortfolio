@@ -8,7 +8,7 @@ const HandBurger = () => {
   return (
     <div className='handBurgerMenuWrapper'>
         <div className="handBurgerMenu"><FaBars style={{fontSize:"1.5rem"}} onClick={handleClick}/></div>
-        <div style={{color:"gray",opacity:".2"}}>EDITION 2023</div>
+        <div style={{color:"gray",opacity:".2"}}>PIYAS 2023</div>
     </div>
   )
 }

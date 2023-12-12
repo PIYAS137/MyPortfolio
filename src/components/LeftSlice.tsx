@@ -10,7 +10,7 @@ const LeftSlice = () => {
         const fileUrl = 'https://drive.google.com/uc?export=download&id=1MsJSefIuuux_SWsSLb6ywCml4sMkDxq2';
         const link = document.createElement('a');
         link.href = fileUrl;
-        link.setAttribute('download', 'example.pdf'); // Name of the downloaded file
+        link.setAttribute('download', 'example.pdf');
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
@@ -41,7 +41,7 @@ const LeftSlice = () => {
                     </div>
                     <div className="cardBody">
                         <img className='cardImg' src={MyPic} alt="" />
-                        <h2><small className='small'>piyasmahmudealif@gmail.com</small><br />Based in Dhaka,<br /> Bangladesh</h2>
+                        <h2><small className='small' style={{fontWeight:'100'}}>piyasmahmudealif@gmail.com</small><br />Based in Dhaka,<br /> Bangladesh</h2>
                         <p>&copy; 2023 Piyas. All Right Reserved</p>
                         <div className="contactIcons">
                             <div className="Cicons"><a target='blank' href="https://github.com/PIYAS137"><FaGithub /></a></div>
