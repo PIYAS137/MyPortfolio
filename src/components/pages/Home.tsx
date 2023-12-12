@@ -18,7 +18,7 @@ const Home = () => {
           <span style={{ color: "#28E98C", }}>*</span> I view projects not just as tasks but as opportunities to engage with users and create impactful solutions 💡.</p>
         <div style={{ display: "", alignItems: "center" }}>
           <div>
-            <p><span style={{ color: "#28E98C", }}>2+</span><span style={{ fontSize: "1rem" }}>Years Learning Expr.</span></p>
+            <p><span style={{ color: "#28E98C", }}>1+</span><span style={{ fontSize: "1rem" }}>Years Learning Expr.</span></p>
           </div>
           <div>
             <p style={{fontSize:'1rem',marginTop:'2rem'}}>Successfuly done<span style={{ color: "#28E98C",fontSize:'1rem' }}> projects 👇</span></p>
